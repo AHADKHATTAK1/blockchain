@@ -1,0 +1,11 @@
+[package]
+name = "blockchain"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <you@example.com>"]
+description = "A simple blockchain project in Rust"
+license = "MIT"
+
+[dependencies]
+anchor-lang = "0.29.0"
+anchor-spl = "0.29.0"

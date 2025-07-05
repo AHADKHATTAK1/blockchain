@@ -1,0 +1,20 @@
+[programs.localnet]
+my_program = "YourProgram1111111111111111111111111111111111"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "anchor test"
+
+[test]
+startup_wait = 10000
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[workspace]
+members = [
+    "programs/*"
+]
